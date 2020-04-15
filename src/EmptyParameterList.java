@@ -1,0 +1,4 @@
+class EmptyParameterList extends ParameterList
+{
+
+}
