@@ -2,5 +2,28 @@ class FloatVal extends Val
 {
     float val;
 
-    // You add suitable constructors/functions.
+    FloatVal(float f)
+    {
+        val = f;
+    }
+
+    public String toString()
+    {
+        return val+"";
+    }
+
+    Val cloneVal()
+    {
+        return new FloatVal(val);
+    }
+
+    float floatVal()
+    {
+        return val;
+    }
+
+    boolean isZero()
+    {
+        return val == 0.0f;
+    }
 }

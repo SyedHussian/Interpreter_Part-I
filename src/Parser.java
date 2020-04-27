@@ -286,21 +286,21 @@ public abstract class Parser extends LexAnalyzer
         return;
     }
 
-    public static void main(String argv[])
-    {
-        // argv[0]: input file containing a string of <fun def list>
-        // argv[1]: output file displaying the parse tree or error messages
-
-        setIO( argv[0], argv[1] );
-        setLex();
-
-        getToken();
-        FunDefList funDefList = funDefList();
-        if ( ! t.isEmpty() )
-            errorMsg(0);
-        else if ( ! syntaxErrorFound )
-            funDefList.printParseTree("");
-
-        closeIO();
-    }
+//    public static void main(String argv[])
+//    {
+//        // argv[0]: input file containing a string of <fun def list>
+//        // argv[1]: output file displaying the parse tree or error messages
+//
+//        setIO( argv[0], argv[1] );
+//        setLex();
+//
+//        getToken();
+//        FunDefList funDefList = funDefList();
+//        if ( ! t.isEmpty() )
+//            errorMsg(0);
+//        else if ( ! syntaxErrorFound )
+//            funDefList.printParseTree("");
+//
+//        closeIO();
+//    }
 }

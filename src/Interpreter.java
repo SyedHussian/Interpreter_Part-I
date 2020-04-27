@@ -12,31 +12,34 @@ public abstract class Interpreter extends Parser
 	 
 	   The evaluation result and runtime errors will be displayed on the terminal.
 	*/
-
     {
-        setIO( argv[0], argv[1] );
-        setLex();
+//        setIO( argv[0], argv[1] );
+        setIO("C:\\Users\\tah94\\Desktop\\QC_Classes\\Spring_2020\\CS_316\\Projects\\Project_3\\src\\input_5", "C:\\Users\\tah94\\Desktop\\QC_Classes\\Spring_2020\\CS_316\\Projects\\Project_3\\src\\output_5");
 
+        setLex();
         getToken();
         FunDefList funDefList = funDefList();
-        if ( ! t.isEmpty() )
+        if ( ! t.isEmpty() ) {
             errorMsg(0);
-        else if ( ! syntaxErrorFound )
-        {
+        }
+        if ( syntaxErrorFound ) {
             closeIO();
-            setIO( argv[2], argv[3] );
+            setIO("C:\\Users\\tah94\\Desktop\\QC_Classes\\Spring_2020\\CS_316\\Projects\\Project_3\\src\\input_Eval", "C:\\Users\\tah94\\Desktop\\QC_Classes\\Spring_2020\\CS_316\\Projects\\Project_3\\src\\output_Eval");
+
+//            setIO( argv[2], argv[3] );
             getToken();
+
             Exp exp = exp();
-            if ( ! t.isEmpty() )
+            if ( ! t.isEmpty() ) {
                 displayln(t + "  -- unexpected symbol");
-            else if ( ! syntaxErrorFound )
-            {
-//                Val v = exp.Eval(new HashMap<String,Val>());  // evaluate the given expression
-//                if ( v != null )
-//                    System.out.println( v.toString() );   // display the value on the terminal
+            }
+            else if ( syntaxErrorFound ) {
+                Val v = exp.Eval(new HashMap<String, Val>());  // evaluate the given expression
+                if ( v != null ) {
+                    System.out.println(v.toString());   // display the value on the terminal
+                }
             }
         }
-
         closeIO();
     }
 }

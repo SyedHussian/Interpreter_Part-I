@@ -2,5 +2,28 @@ class BoolVal extends Val
 {
     boolean val;
 
-    // You add suitable constructors/functions.
+    BoolVal(boolean i)
+    {
+        val = i;
+    }
+
+    public String toString()
+    {
+        return val+"";
+    }
+
+    Val cloneVal()
+    {
+        return new BoolVal(val);
+    }
+
+    float floatVal()
+    {
+        return 0;
+    }
+
+    boolean isZero()
+    {
+        return val;
+    }
 }

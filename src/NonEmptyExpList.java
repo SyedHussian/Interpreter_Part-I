@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class NonEmptyExpList extends ExpList
 {
     Exp exp;
@@ -7,5 +9,9 @@ class NonEmptyExpList extends ExpList
     {
         exp = e;
         expList = el;
+    }
+
+    Val Eval(HashMap<String, Val> state) {
+        return expList.Eval(state);
     }
 }

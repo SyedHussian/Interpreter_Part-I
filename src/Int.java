@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class Int extends Exp
 {
     int intElem;
@@ -12,5 +14,10 @@ class Int extends Exp
         super.printParseTree(indent);
         String indent1 = indent+" ";
         IO.displayln(indent1 + indent1.length() + " " + intElem);
+    }
+
+    Val Eval(HashMap<String,Val> state)
+    {
+        return new IntVal(intElem);
     }
 }

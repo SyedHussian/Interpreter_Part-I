@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class Floatp extends Exp
 {
     float floatElem;
@@ -12,5 +14,10 @@ class Floatp extends Exp
         super.printParseTree(indent);
         String indent1 = indent+" ";
         IO.displayln(indent1 + indent1.length() + " " + floatElem);
+    }
+
+    Val Eval(HashMap<String,Val> state)
+    {
+        return new FloatVal(floatElem);
     }
 }

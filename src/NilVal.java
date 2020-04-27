@@ -1,4 +1,9 @@
 class NilVal extends Val
 {
-    // You add suitable constructors/functions.
+    public Val cloneVal() {
+        return null;
+    }
+    public String toString() {
+        return "nil";
+    }
 }

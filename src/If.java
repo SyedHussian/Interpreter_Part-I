@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class If extends Exp
 {
     Exp exp1;
@@ -24,5 +26,21 @@ class If extends Exp
         exp2.printParseTree(indent2);
         IO.displayln(indent1 + indent1.length() + " else");
         exp3.printParseTree(indent2);
+    }
+
+    Val Eval(HashMap<String, Val> state)
+    {
+        if(exp1.Eval(state).getClass() == BoolVal.class) {
+            if(((BoolVal)exp1.Eval(state)).val) {
+                return exp2.Eval(state);
+            }
+            else {
+                return exp3.Eval(state);
+            }
+        }
+        else {
+            System.out.println("Error: boolean condition of if-then-else evaluated to non-boolean value: " + exp1.Eval(state));
+            return null;
+        }
     }
 }
