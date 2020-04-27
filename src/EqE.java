@@ -62,9 +62,6 @@ class EqE extends FunExp
                             floatVal = floatVal1;
                             isEq = false;
                         }
-                        else {
-                            continue;
-                        }
                     }
                 }
                 if (isEq) {

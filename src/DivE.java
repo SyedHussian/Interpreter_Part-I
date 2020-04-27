@@ -18,8 +18,8 @@ class DivE extends FunExp
             Stack<Float> stack = new Stack<>();
             NonEmptyExpList nonEmptyExpList = (NonEmptyExpList) expList;
             float num = 1;
-            boolean isInt = true;
             boolean expListClass = true;
+            boolean isInt = true;
             while (expListClass) {
                 if (nonEmptyExpList.exp.getClass() == Int.class) {
                     num = ((Int) nonEmptyExpList.exp).intElem;
@@ -44,10 +44,9 @@ class DivE extends FunExp
                     expListClass = false;
                 }
             }
-
             float finalVal = stack.pop();
             while (!stack.isEmpty()) {
-                if (finalVal >= 1) {
+                if (isInt == false) {
                     finalVal = stack.pop() / finalVal;
                 }
                 else {

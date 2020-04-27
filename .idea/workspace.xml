@@ -2,45 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31a30555-16fa-40de-a5cf-8d9182172fca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NonEmptyExpList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/input_5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/input_Eval" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/output_5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/output_Eval" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AndE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AndE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoolVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoolVal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Interpreter_Part1/AndE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Interpreter_Part1/AndE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Interpreter_Part1/DivE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Interpreter_Part1/DivE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Interpreter_Part1/EmptyExpList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Interpreter_Part1/EmptyExpList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Interpreter_Part1/EqE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Interpreter_Part1/EqE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Interpreter_Part1/GeE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Interpreter_Part1/GeE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Interpreter_Part1/GtE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Interpreter_Part1/GtE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Interpreter_Part1/LeE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Interpreter_Part1/LeE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Interpreter_Part1/LtE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Interpreter_Part1/LtE.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DivE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DivE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmptyExpList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmptyExpList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EqE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EqE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExpList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExpList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/First.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FloatVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloatVal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Floatp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Floatp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FunCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunCall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GeE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GtE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GtE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Id.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Id.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/If.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/If.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Int.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Int.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntVal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LtE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LtE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MulE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MulE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Nil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NilVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NilVal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NonEmptyList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PairVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PairVal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Second.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SubE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Val.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Val.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +93,7 @@
       <workItem from="1586970420013" duration="2152000" />
       <workItem from="1587034220783" duration="9245000" />
       <workItem from="1587315759715" duration="1212000" />
-      <workItem from="1587832092046" duration="40857000" />
+      <workItem from="1587832092046" duration="44439000" />
     </task>
     <servers />
   </component>
@@ -136,26 +112,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587040797276" />
-    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1587931733988">
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1587949523380">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587931733988" />
-    <state width="724" height="192" key="GridCell.Tab.0.bottom" timestamp="1587948888219">
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587949523380" />
+    <state width="724" height="192" key="GridCell.Tab.0.bottom" timestamp="1587952331748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587948888219" />
-    <state width="724" height="192" key="GridCell.Tab.0.center" timestamp="1587948888219">
+    <state width="724" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587952331748" />
+    <state width="724" height="192" key="GridCell.Tab.0.center" timestamp="1587952331748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587948888219" />
-    <state width="724" height="192" key="GridCell.Tab.0.left" timestamp="1587948888219">
+    <state width="724" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587952331748" />
+    <state width="724" height="192" key="GridCell.Tab.0.left" timestamp="1587952331748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587948888219" />
-    <state width="724" height="192" key="GridCell.Tab.0.right" timestamp="1587948888219">
+    <state width="724" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587952331748" />
+    <state width="724" height="192" key="GridCell.Tab.0.right" timestamp="1587952331748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587948888219" />
+    <state width="724" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587952331748" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1587864039416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -188,9 +164,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587931798604" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587932554022">
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587951203429">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587932554022" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587951203429" />
   </component>
 </project>

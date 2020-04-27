@@ -49,14 +49,13 @@ class GeE extends FunExp
                         else {
                             floatVal1 = new FloatVal(((IntVal) stack.get(i)).val);
                         }
-                        if (floatVal.val <= floatVal1.val) {
-                            floatVal = floatVal1;
-                            isGreaterEq = false;
-                        }
-                        else {
-                            floatVal = floatVal1;
+                        if (floatVal.val >= floatVal1.val) {
                             isGreaterEq = true;
                         }
+                        else {
+                            isGreaterEq = false;
+                        }
+                        floatVal = floatVal1;
                     } else {
                         System.out.println("Error: < operator cannot be applied to " + stack.get(i));
                         return null;

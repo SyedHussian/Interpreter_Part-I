@@ -48,28 +48,13 @@ class LeE extends FunExp
                         else {
                             floatVal1 = new FloatVal(((IntVal) stack.get(i)).val);
                         }
-                        if (floatVal.val > floatVal1.val) {
-                            floatVal = floatVal1;
-                            isLessEq = false;
+                        if (floatVal.val <= floatVal1.val) {
+                            isLessEq = true;
                         }
                         else {
-                            floatVal = floatVal1;
-                            isLessEq = true;
-//                            continue;
+                            isLessEq = false;
                         }
-//                        floatVal = floatVal1;
-
-//                        if(floatVal.val <= floatVal1.val)
-//                        {
-//                            floatVal = floatVal1;
-//                            isLessEq = true;
-//                            continue;
-//                        }
-//                        else
-//                        {
-//                            floatVal = floatVal1;
-//                            isLessEq = false;
-//                        }
+                        floatVal = floatVal1;
                     } else {
                         System.out.println("Error: < operator cannot be applied to " + stack.get(i));
                         return null;
